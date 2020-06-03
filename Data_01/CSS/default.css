@@ -149,7 +149,7 @@ h3 {
 	margin-right: 2%;
 }
 .info {
-	text-align: center;
+	text-align: left;
 }
 .info_01 {
 	text-align: center;
@@ -196,6 +196,5 @@ h3 {
 }
 .info_note {
 	margin: 20px;
-	text-align: left;
-    display: inline-grid;
+	text-align: center;
 }
