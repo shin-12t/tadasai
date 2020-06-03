@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* recet css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS */
+body {
+	background-color: rgba(4,199,226,1.00);
+	width: 1280px;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+header {
+	margin: 0 auto;
+	width: 100%;
+	height: 630px;
+	background-image: url("../images/background_01.png");
+	background-repeat: no-repeat;
+	background-size: 98%;
+	background-position: right;
+}
+p {
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+.KV {
+	margin: 0 auto;
+	width:90%;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+.main {
+	width: 90%;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+.header_p {
+	position: relative;
+}
+.header_kigen {
+	margin: 30px;
+    position: absolute;
+    right: 0;
+	bottom: 0;
+}
+.cv_area {
+	position: relative;
+}
+.cv_btn {
+	position: absolute;
+	right: 0;
+	top: 285px;
+	margin: 10px;
+}
+.column {
+	display: flex;
+}
+.column_01 {
+	margin: 20px 20px;
+}
+.main_text {
+	font-size: 18px;
+	margin-top: 50px;
+	font-weight: bold;
+}
+.sai {
+	position: relative;
+    bottom: -5px;
+    left: -2px;
+}
+.line {
+	margin: 45px 0;
+	width: 85%;
+	border-bottom: solid 2px;
+	border-bottom-color: rgba(4,199,226,1.00);
+}
+.line_02 {
+	border-bottom: solid 1px;
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.merit > ul {
+	display: flex;
+    justify-content: center;
+}
+.merit > ul > li > img {
+	width: 95%;
+}
+.merit {
+	text-align: center;
+	height: auto;
+}
+h3 {
+	font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+.merit_img {
+	text-align: right;
+	margin-right: 2%;
+}
+.info {
+	text-align: center;
+}
+.info_01 {
+	text-align: center;
+}
+.info > h2 {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 10px 0px 10px 80px;
+}
+.info_contents > h3 {
+	display: inline-block;
+    padding: 10px 60px;
+    width: auto;
+    font-size: 20px;
+    font-weight: normal;
+    border: solid 1px;
+    border-radius: 22px;
+	margin: 50px 0px;
+}
+.info_contents {
+	text-align: center;
+}
+.plan_caption {
+	font-size: 18px;
+	width: 750px;
+	margin: 0 auto;
+	text-align: left;
+}
+.plan_caption_center {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.plan_caption_li {
+	display: inline-block;
+	font-size: 18px;
+}
+.plan_caption_li > li {
+	text-align: left;
+}
+.cv_area_02 {
+	text-align: center;
+	margin: 100px 0px 20px 0px;
+}
+.info_note {
+	margin: 20px;
+	text-align: left;
+    display: inline-grid;
+}
